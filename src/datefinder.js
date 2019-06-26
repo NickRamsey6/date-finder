@@ -3,8 +3,9 @@
 // export let inputMonth = 3;
 // export let inputDay = 3;
 
+//Built an array of months to be accessed via monthToString. Needed because we are using numeric inputted values but need the name of the month for .getDay to work.
 const calendar = ["Nothinguary", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
+//Built an array of days to be accessed via dayToString. Needed because get.Day returns a number corresponding to what day of the week. Sunday = 0.
 const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 
